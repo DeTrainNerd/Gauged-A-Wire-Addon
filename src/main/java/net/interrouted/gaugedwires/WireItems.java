@@ -42,8 +42,8 @@ public class WireItems {
     public static final DeferredItem<Item> CU_WIRE_2000MCM = registerItem("cu_wire_2000mcm", CuWire2000mcm::new);
     // Insulated Copper Wires
     public static final DeferredItem<Item> CU_INS_WIRE_14AWG = registerItem("cu_ins_wire_14awg", CuInsWire14awg::new);
-    public static final DeferredItem<Item> CU_INS_WIRE_12AWG = registerItem("cu_ins_wire_12awg", CuInsWire14awg::new);
-    public static final DeferredItem<Item> CU_INS_WIRE_10AWG = registerItem("cu_ins_wire_10awg", CuInsWire14awg::new);
+    public static final DeferredItem<Item> CU_INS_WIRE_12AWG = registerItem("cu_ins_wire_12awg", CuInsWire12awg::new);
+    public static final DeferredItem<Item> CU_INS_WIRE_10AWG = registerItem("cu_ins_wire_10awg", CuInsWire10awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_8AWG = registerItem("cu_ins_wire_8awg", CuInsWire8awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_6AWG = registerItem("cu_ins_wire_6awg", CuInsWire6awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_4AWG = registerItem("cu_ins_wire_4awg", CuInsWire4awg::new);
