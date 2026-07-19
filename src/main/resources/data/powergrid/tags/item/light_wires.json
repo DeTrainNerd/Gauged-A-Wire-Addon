@@ -19,6 +19,25 @@
     "gauged_wires:cu_ins_wire_4awg",
     "gauged_wires:cu_ins_wire_3awg",
     "gauged_wires:cu_ins_wire_2awg",
-    "gauged_wires:cu_ins_wire_1awg"
+    "gauged_wires:cu_ins_wire_1awg",
+
+    "gauged_wires:al_wire_14awg",
+    "gauged_wires:al_wire_12awg",
+    "gauged_wires:al_wire_10awg",
+    "gauged_wires:al_wire_8awg",
+    "gauged_wires:al_wire_6awg",
+    "gauged_wires:al_wire_4awg",
+    "gauged_wires:al_wire_3awg",
+    "gauged_wires:al_wire_2awg",
+    "gauged_wires:al_wire_1awg",
+    "gauged_wires:al_ins_wire_14awg",
+    "gauged_wires:al_ins_wire_12awg",
+    "gauged_wires:al_ins_wire_10awg",
+    "gauged_wires:al_ins_wire_8awg",
+    "gauged_wires:al_ins_wire_6awg",
+    "gauged_wires:al_ins_wire_4awg",
+    "gauged_wires:al_ins_wire_3awg",
+    "gauged_wires:al_ins_wire_2awg",
+    "gauged_wires:al_ins_wire_1awg"
   ]
 }
