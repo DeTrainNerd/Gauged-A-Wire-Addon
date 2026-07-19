@@ -3,7 +3,7 @@
   "itemsPerMeter":  0.5,
   "maximumLength": 28,
   "thermalMass":  4,
-  "maximumCurrent":  35.0,
+  "maximumCurrent":  37,
   "texture":  "powergrid:textures/special/copper_wire.png",
   "horizontalCoefficient": 1.01,
   "verticalCoefficient": 1.01,
