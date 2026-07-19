@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "gauged_wires:item/creative_wire"
+  }
+}
