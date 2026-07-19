@@ -3,7 +3,7 @@ Gauged: A Wire Addon
 
 > How big of a wire can I get?
 
-This mod adds various wire gauges and adds them to Create: Power Grid, with the smallest gauge wire being 14 AWG which is approximately 2mm² to the biggest of 2000 MCM which is over ***1000 mm²***.
+This mod adds various wire gauges and adds them to Create: Power Grid for Minecraft 1.21.1, with the smallest gauge wire being 14 AWG which is approximately 2mm² to the biggest of 2000 MCM which is over ***1000 mm²***.
 These wires don't joke around! The iron wires added are equivalent to real-life aluminum wires in their ampacity.
 
 ## What Gets added in this mod:
