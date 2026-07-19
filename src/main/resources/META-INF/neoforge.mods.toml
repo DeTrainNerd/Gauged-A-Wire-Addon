@@ -24,7 +24,7 @@ license="All Rights Reserved"
 modId="gauged_wires" #mandatory
 
 # The version number of the mod
-version="0.0.1" #mandatory
+version="0.0.2" #mandatory
 
 # A display name for the mod
 displayName="Gauged -- A Wire Addon" #mandatory
