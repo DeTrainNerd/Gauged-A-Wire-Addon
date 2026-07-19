@@ -51,7 +51,7 @@ public class WireItems {
     public static final DeferredItem<Item> CU_INS_WIRE_2AWG = registerItem("cu_ins_wire_2awg", CuInsWire2awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_1AWG = registerItem("cu_ins_wire_1awg", CuInsWire1awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_0AWG = registerItem("cu_ins_wire_0awg", CuInsWire0awg::new);
-    public static final DeferredItem<Item> CU_INS_WIRE_00AWG = registerItem("cu_ins_wire_00awg", CuInsWire14awg::new);
+    public static final DeferredItem<Item> CU_INS_WIRE_00AWG = registerItem("cu_ins_wire_00awg", CuInsWire00awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_000AWG = registerItem("cu_ins_wire_000awg", CuInsWire000awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_0000AWG = registerItem("cu_ins_wire_0000awg", CuInsWire0000awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_250MCM = registerItem("cu_ins_wire_250mcm", CuInsWire250mcm::new);
