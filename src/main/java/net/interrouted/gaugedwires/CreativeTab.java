@@ -46,7 +46,34 @@ public class CreativeTab {
                         WireItems.CU_WIRE_1250MCM,
                         WireItems.CU_WIRE_1500MCM,
                         WireItems.CU_WIRE_1750MCM,
-                        WireItems.CU_WIRE_2000MCM
+                        WireItems.CU_WIRE_2000MCM,
+
+                        // Insulated Copper Wires
+                        WireItems.CU_INS_WIRE_14AWG,
+                        WireItems.CU_INS_WIRE_12AWG,
+                        WireItems.CU_INS_WIRE_10AWG,
+                        WireItems.CU_INS_WIRE_8AWG,
+                        WireItems.CU_INS_WIRE_6AWG,
+                        WireItems.CU_INS_WIRE_4AWG,
+                        WireItems.CU_INS_WIRE_3AWG,
+                        WireItems.CU_INS_WIRE_2AWG,
+                        WireItems.CU_INS_WIRE_1AWG,
+                        WireItems.CU_INS_WIRE_0AWG,
+                        WireItems.CU_INS_WIRE_00AWG,
+                        WireItems.CU_INS_WIRE_000AWG,
+                        WireItems.CU_INS_WIRE_0000AWG,
+                        WireItems.CU_INS_WIRE_250MCM,
+                        WireItems.CU_INS_WIRE_300MCM,
+                        WireItems.CU_INS_WIRE_350MCM,
+                        WireItems.CU_INS_WIRE_400MCM,
+                        WireItems.CU_INS_WIRE_500MCM,
+                        WireItems.CU_INS_WIRE_600MCM,
+                        WireItems.CU_INS_WIRE_750MCM,
+                        WireItems.CU_INS_WIRE_1000MCM,
+                        WireItems.CU_INS_WIRE_1250MCM,
+                        WireItems.CU_INS_WIRE_1500MCM,
+                        WireItems.CU_INS_WIRE_1750MCM,
+                        WireItems.CU_INS_WIRE_2000MCM
                 );
 
             })
