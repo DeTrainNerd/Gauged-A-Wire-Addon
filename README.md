@@ -9,9 +9,9 @@ These wires don't joke around! The iron wires added are equivalent to real-life 
 ## What Gets added in this mod:
 
 - Copper wires with gauges from 14 AWG to 2000 MCM (2mm² to 1014mm²)
-- A creative wire with zero resistance and a ludicrous ampacity
+- A creative wire with very little resistance and a ludicrous ampacity
+- Aluminum wires with gauges from 14 AWG to 2000 MCM (2mm² to 1014mm²)
 
 ## What is soon to be added:
 
-- Aluminum wires with gauges from 14 AWG to 2000 MCM
 - Crafting Recipes
