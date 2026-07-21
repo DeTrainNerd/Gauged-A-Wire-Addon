@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "gauged_wires:item/al_ins_wire_large"
+  }
+}
