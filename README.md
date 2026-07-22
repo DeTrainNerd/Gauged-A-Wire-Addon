@@ -1,4 +1,4 @@
-Gauged: A Wire Addon
+[Gauged: A Wire Addon](https://modrinth.com/mod/gauged-a-wire-addon)
 =======
 
 > How big of a wire can I get?
