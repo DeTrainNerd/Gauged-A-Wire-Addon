@@ -7,7 +7,7 @@
   "texture":  "gauged_wires:textures/special/creative_wire_texture.png",
   "horizontalCoefficient": 1.01,
   "verticalCoefficient": 1.2,
-  "wireThickness": 0.0625,
+  "wireThickness": 0.125,
   "colorable": false,
   "cord": true
 }
