@@ -14,7 +14,7 @@ public class WireItems {
     // add wires here, following this format
     // public static final DeferredItem<Item> ITEM_ID = registerItem("item_id", ItemClass::new);
     public static final DeferredItem<Item> CREATIVE_WIRE = registerItem("creative_wire", CreativeWire::new);
-    public static final DeferredItem<Item> CREATIVE_CORD = registerItem("creative_cord", CreativeWire::new);
+    public static final DeferredItem<Item> CREATIVE_CORD = registerItem("creative_cord", CreativeCord::new);
 
     // Uninsulated Copper Wires
     public static final DeferredItem<Item> CU_WIRE_14AWG = registerItem("cu_wire_14awg", CuWire14awg::new);
