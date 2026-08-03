@@ -21,6 +21,7 @@ public class CreativeTab {
             .displayItems((parameters, output) -> {
                 add(output,
                         WireItems.CREATIVE_WIRE,
+                        WireItems.CREATIVE_CORD,
 
                         // Copper Wires
                         WireItems.CU_WIRE_14AWG,
