@@ -24,7 +24,7 @@ license="All Rights Reserved"
 modId="gauged_wires" #mandatory
 
 # The version number of the mod
-version="1.0.0" #mandatory
+version="1.0.2" #mandatory
 
 # A display name for the mod
 displayName="Gauged -- A Wire Addon" #mandatory
@@ -52,6 +52,6 @@ Adds multiple sizes of wire to Create: Power Grid
 [[dependencies.gauged_wires]]
 modId = "powergrid"
 type = "required"
-versionRange = "[0.5.5.1,)"
+versionRange = "[0.6.0.1,)"
 ordering = "AFTER"
 side = "BOTH"
