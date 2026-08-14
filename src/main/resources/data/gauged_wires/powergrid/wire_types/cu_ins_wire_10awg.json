@@ -9,5 +9,6 @@
   "verticalCoefficient": 1.01,
   "wireThickness": 0.0427,
   "colorable": true,
-  "cord": false
+  "cord": false,
+  "insulated": true
 }
