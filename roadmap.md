@@ -8,7 +8,6 @@
   - High thermal mass power resistors (not the pcb component)
   - High thermal mass rheostats
   - Higher voltage (and also lower current) contactors
-  - Normally closed buttons and contactors lol
   - Anything else you might suggest!
 
 # Definitely not for a while...
