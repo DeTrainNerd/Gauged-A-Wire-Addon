@@ -43,6 +43,17 @@ public class WireItems {
     public static final DeferredItem<Item> CU_WIRE_1750MCM = registerItem("cu_wire_1750mcm", CuWire1750mcm::new);
     public static final DeferredItem<Item> CU_WIRE_2000MCM = registerItem("cu_wire_2000mcm", CuWire2000mcm::new);
 
+    // Copper Cords
+    public static final DeferredItem<Item> CU_CORD_14AWG = registerItem("cu_cord_14awg", CuCord14awg::new);
+    public static final DeferredItem<Item> CU_CORD_12AWG = registerItem("cu_cord_12awg", CuCord12awg::new);
+    public static final DeferredItem<Item> CU_CORD_10AWG = registerItem("cu_cord_10awg", CuCord10awg::new);
+    public static final DeferredItem<Item> CU_CORD_8AWG  = registerItem("cu_cord_8awg",  CuCord8awg::new);
+    public static final DeferredItem<Item> CU_CORD_6AWG  = registerItem("cu_cord_6awg",  CuCord6awg::new);
+    public static final DeferredItem<Item> CU_CORD_4AWG  = registerItem("cu_cord_4awg",  CuCord4awg::new);
+    public static final DeferredItem<Item> CU_CORD_3AWG  = registerItem("cu_cord_3awg",  CuCord3awg::new);
+    public static final DeferredItem<Item> CU_CORD_2AWG  = registerItem("cu_cord_2awg",  CuCord2awg::new);
+    public static final DeferredItem<Item> CU_CORD_1AWG  = registerItem("cu_cord_1awg",  CuCord1awg::new);
+
     // Insulated Copper Wires
     public static final DeferredItem<Item> CU_INS_WIRE_14AWG = registerItem("cu_ins_wire_14awg", CuInsWire14awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_12AWG = registerItem("cu_ins_wire_12awg", CuInsWire12awg::new);
@@ -96,6 +107,17 @@ public class WireItems {
     public static final DeferredItem<Item> AL_WIRE_1500MCM = registerItem("al_wire_1500mcm", AlWire1500mcm::new);
     public static final DeferredItem<Item> AL_WIRE_1750MCM = registerItem("al_wire_1750mcm", AlWire1750mcm::new);
     public static final DeferredItem<Item> AL_WIRE_2000MCM = registerItem("al_wire_2000mcm", AlWire2000mcm::new);
+
+    // Aluminum Cords
+    public static final DeferredItem<Item> AL_CORD_14AWG = registerItem("al_cord_14awg", AlCord14awg::new);
+    public static final DeferredItem<Item> AL_CORD_12AWG = registerItem("al_cord_12awg", AlCord12awg::new);
+    public static final DeferredItem<Item> AL_CORD_10AWG = registerItem("al_cord_10awg", AlCord10awg::new);
+    public static final DeferredItem<Item> AL_CORD_8AWG  = registerItem("al_cord_8awg",  AlCord8awg::new);
+    public static final DeferredItem<Item> AL_CORD_6AWG  = registerItem("al_cord_6awg",  AlCord6awg::new);
+    public static final DeferredItem<Item> AL_CORD_4AWG  = registerItem("al_cord_4awg",  AlCord4awg::new);
+    public static final DeferredItem<Item> AL_CORD_3AWG  = registerItem("al_cord_3awg",  AlCord3awg::new);
+    public static final DeferredItem<Item> AL_CORD_2AWG  = registerItem("al_cord_2awg",  AlCord2awg::new);
+    public static final DeferredItem<Item> AL_CORD_1AWG  = registerItem("al_cord_1awg",  AlCord1awg::new);
 
     // Insulated Aluminum Wires
     public static final DeferredItem<Item> AL_INS_WIRE_14AWG = registerItem("al_ins_wire_14awg", AlInsWire14awg::new);

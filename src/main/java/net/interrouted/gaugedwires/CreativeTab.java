@@ -50,6 +50,17 @@ public class CreativeTab {
                         WireItems.CU_WIRE_1750MCM,
                         WireItems.CU_WIRE_2000MCM,
 
+                        // Copper Cords
+                        WireItems.CU_CORD_14AWG,
+                        WireItems.CU_CORD_12AWG,
+                        WireItems.CU_CORD_10AWG,
+                        WireItems.CU_CORD_8AWG,
+                        WireItems.CU_CORD_6AWG,
+                        WireItems.CU_CORD_4AWG,
+                        WireItems.CU_CORD_3AWG,
+                        WireItems.CU_CORD_2AWG,
+                        WireItems.CU_CORD_1AWG,
+
                         // Insulated Copper Wires
                         WireItems.CU_INS_WIRE_14AWG,
                         WireItems.CU_INS_WIRE_12AWG,
@@ -103,6 +114,17 @@ public class CreativeTab {
                         WireItems.AL_WIRE_1500MCM,
                         WireItems.AL_WIRE_1750MCM,
                         WireItems.AL_WIRE_2000MCM,
+
+                        // Aluminum Cords
+                        WireItems.AL_CORD_14AWG,
+                        WireItems.AL_CORD_12AWG,
+                        WireItems.AL_CORD_10AWG,
+                        WireItems.AL_CORD_8AWG,
+                        WireItems.AL_CORD_6AWG,
+                        WireItems.AL_CORD_4AWG,
+                        WireItems.AL_CORD_3AWG,
+                        WireItems.AL_CORD_2AWG,
+                        WireItems.AL_CORD_1AWG,
 
                         // Insulated Aluminum Wires
                         WireItems.AL_INS_WIRE_14AWG,
