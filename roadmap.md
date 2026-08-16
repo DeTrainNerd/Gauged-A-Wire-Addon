@@ -1,6 +1,6 @@
 # Definitely getting added very soon
 
-- Copper (and aluminum) cord wire variants for gauges 14 - 4/0
+- Wire size rework
 
 # Possbile in the near future
 
