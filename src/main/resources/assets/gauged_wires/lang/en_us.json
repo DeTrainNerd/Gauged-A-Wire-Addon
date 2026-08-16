@@ -28,6 +28,16 @@
   "item.gauged_wires.cu_wire_1750mcm": "1750 MCM Copper Wire",
   "item.gauged_wires.cu_wire_2000mcm": "2000 MCM Copper Wire",
 
+  "item.gauged_wires.cu_cord_14awg": "14 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_12awg": "12 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_10awg": "10 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_8awg": "8 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_6awg": "6 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_4awg": "4 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_3awg": "3 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_2awg": "2 AWG Copper Cord",
+  "item.gauged_wires.cu_cord_1awg": "1 AWG Copper Cord",
+
   "item.gauged_wires.cu_ins_wire_14awg": "14 AWG Insulated Copper Wire",
   "item.gauged_wires.cu_ins_wire_12awg": "12 AWG Insulated Copper Wire",
   "item.gauged_wires.cu_ins_wire_10awg": "10 AWG Insulated Copper Wire",
@@ -79,6 +89,16 @@
   "item.gauged_wires.al_wire_1500mcm": "1500 MCM Aluminum Wire",
   "item.gauged_wires.al_wire_1750mcm": "1750 MCM Aluminum Wire",
   "item.gauged_wires.al_wire_2000mcm": "2000 MCM Aluminum Wire",
+
+  "item.gauged_wires.al_cord_14awg": "14 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_12awg": "12 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_10awg": "10 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_8awg": "8 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_6awg": "6 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_4awg": "4 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_3awg": "3 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_2awg": "2 AWG Aluminum Cord",
+  "item.gauged_wires.al_cord_1awg": "1 AWG Aluminum Cord",
 
   "item.gauged_wires.al_ins_wire_14awg": "14 AWG Insulated Aluminum Wire",
   "item.gauged_wires.al_ins_wire_12awg": "12 AWG Insulated Aluminum Wire",
