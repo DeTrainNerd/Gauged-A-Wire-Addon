@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gauged_wires:cu_wire_12awg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "gauged_wires:cu_wire_14awg"
+  }
+}
