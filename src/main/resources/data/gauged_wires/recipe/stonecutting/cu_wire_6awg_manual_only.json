@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "c:plates/copper"
+  },
+  "result": {
+    "id": "gauged_wires:cu_wire_6awg",
+    "count": 4
+  }
+}
