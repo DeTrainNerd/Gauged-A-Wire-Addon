@@ -1,5 +1,6 @@
 package net.interrouted.gaugedwires;
 
+import net.interrouted.gaugedwires.content.ModPartialModels;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -23,6 +24,7 @@ public class GaugedWiresClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
+        ModPartialModels.register();
         // Some client setup code
         // GaugedWiresClient.LOGGER.info("HELLO FROM CLIENT SETUP");
         // GaugedWiresClient.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
