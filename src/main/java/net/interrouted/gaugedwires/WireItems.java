@@ -4,7 +4,7 @@ import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.interrouted.gaugedwires.content.*;
+import net.interrouted.gaugedwires.content.wires.*;
 
 import java.util.function.Supplier;
 
