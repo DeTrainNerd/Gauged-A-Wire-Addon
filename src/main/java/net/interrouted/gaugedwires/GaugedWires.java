@@ -18,6 +18,7 @@ public class GaugedWires {
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public GaugedWires(IEventBus modEventBus, ModContainer modContainer) {
         WireItems.register(modEventBus);
+        //ComponentItems.register(modEventBus);
         CreativeTab.register(modEventBus);
     }
 

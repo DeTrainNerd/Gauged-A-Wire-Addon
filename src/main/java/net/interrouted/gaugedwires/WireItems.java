@@ -1,5 +1,6 @@
 package net.interrouted.gaugedwires;
 
+import net.interrouted.gaugedwires.content.devices.FilmLightBulb;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -11,6 +12,7 @@ import java.util.function.Supplier;
 public class WireItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(GaugedWires.MODID);
 
+    public static final DeferredItem<Item> FILM_LIGHT_BULB = ITEMS.registerItem("film_light_bulb", FilmLightBulb::new);
     // add wires here, following this format
     // public static final DeferredItem<Item> ITEM_ID = registerItem("item_id", ItemClass::new);
     public static final DeferredItem<Item> CREATIVE_WIRE = registerItem("creative_wire", CreativeWire::new);

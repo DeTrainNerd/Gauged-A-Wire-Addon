@@ -15,8 +15,8 @@ public class CreativeTab {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GaugedWires.MODID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WIRES_TAB = CREATIVE_TABS.register("main", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup.gauged_wires"))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WIRES_TAB = CREATIVE_TABS.register("wires", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.gauged_wires.wires_tab"))
             .icon(() -> new ItemStack(WireItems.CREATIVE_WIRE.get()))
             .displayItems((parameters, output) -> {
                 add(output,
@@ -152,6 +152,17 @@ public class CreativeTab {
                         WireItems.AL_INS_WIRE_1500MCM,
                         WireItems.AL_INS_WIRE_1750MCM,
                         WireItems.AL_INS_WIRE_2000MCM
+                );
+
+            })
+            .build());
+
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> COMPONENTS_TAB = CREATIVE_TABS.register("components", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.gauged_wires.components_tab"))
+            .icon(() -> new ItemStack(WireItems.CREATIVE_WIRE.get()))
+            .displayItems((parameters, output) -> {
+                add(output,
+                        WireItems.FILM_LIGHT_BULB
                 );
 
             })
