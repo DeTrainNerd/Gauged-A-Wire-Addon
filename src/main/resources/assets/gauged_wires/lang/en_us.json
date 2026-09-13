@@ -1,5 +1,6 @@
 {
-  "itemGroup.gauged_wires": "Gauged: A Wire Addon",
+  "itemGroup.gauged_wires.wires_tab": "Gauged: A Wire Addon -- Wires",
+  "itemGroup.gauged_wires.components_tab": "Gauged: A Wire Addon -- Components",
   "item.gauged_wires.creative_wire": "Creative Wire",
   "item.gauged_wires.creative_cord": "Creative Cord",
   "item.gauged_wires.cu_wire_14awg": "14 AWG Copper Wire",
