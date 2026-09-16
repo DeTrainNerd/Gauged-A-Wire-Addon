@@ -9,7 +9,7 @@ import net.interrouted.gaugedwires.content.wires.*;
 
 import java.util.function.Supplier;
 
-public class WireItems {
+public class Items {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(GaugedWires.MODID);
 
     public static final DeferredItem<Item> FILM_LIGHT_BULB = ITEMS.registerItem("film_light_bulb", FilmLightBulb::new);
