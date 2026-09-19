@@ -1,7 +1,7 @@
 package net.interrouted.gaugedwires.content.devices;
 
 import net.interrouted.gaugedwires.GaugedWires;
-import net.interrouted.gaugedwires.content.ModPartialModels;
+import net.interrouted.gaugedwires.content.registries.ModPartialModels;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

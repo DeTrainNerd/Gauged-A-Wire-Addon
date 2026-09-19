@@ -1,6 +1,6 @@
 package net.interrouted.gaugedwires;
 
-import net.interrouted.gaugedwires.content.ModPartialModels;
+import net.interrouted.gaugedwires.content.registries.ModPartialModels;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;

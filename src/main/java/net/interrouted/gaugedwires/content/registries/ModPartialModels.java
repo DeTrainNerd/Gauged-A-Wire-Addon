@@ -1,4 +1,4 @@
-package net.interrouted.gaugedwires.content;
+package net.interrouted.gaugedwires.content.registries;
 
 import dev.engine_room.flywheel.lib.model.baked.PartialModel;
 import net.interrouted.gaugedwires.GaugedWires;

@@ -1,6 +1,7 @@
 package net.interrouted.gaugedwires;
 
 import com.mojang.logging.LogUtils;
+import net.interrouted.gaugedwires.content.registries.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -17,7 +18,7 @@ public class GaugedWires {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public GaugedWires(IEventBus modEventBus, ModContainer modContainer) {
-        Items.register(modEventBus);
+        ModItems.register(modEventBus);
         //ComponentItems.register(modEventBus);
         CreativeTab.register(modEventBus);
     }
