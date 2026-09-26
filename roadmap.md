@@ -13,3 +13,4 @@
 # Definitely not for a while...
 
 - A generator clutch that uses remaining stress units (useful for things like windmills, especially windmills with *ProtoManly's Weather* installed)
+- LEDs for PCBs
