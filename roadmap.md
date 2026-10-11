@@ -11,6 +11,7 @@
   - Connectors with multiple connection points on them (isolated)
   - Terminal blocks that have multiple connected terminals
   - PCB Lug terminals
+  - New battery with LiFePO4 chemistry, way more storage capacity than the base Power Grid battery
   - Anything else you might suggest!
 
 # Definitely not for a while...
