@@ -24,7 +24,23 @@ public class CreativeTab {
                         ModItems.CREATIVE_WIRE,
                         ModItems.CREATIVE_CORD,
 
+                        // Wire Draw Plates
+                        ModItems.DRAW_PLATE_18AWG,
+                        ModItems.DRAW_PLATE_16AWG,
+                        ModItems.DRAW_PLATE_14AWG,
+                        ModItems.DRAW_PLATE_12AWG,
+                        ModItems.DRAW_PLATE_10AWG,
+                        ModItems.DRAW_PLATE_8AWG,
+                        ModItems.DRAW_PLATE_6AWG,
+                        ModItems.DRAW_PLATE_4AWG,
+                        ModItems.DRAW_PLATE_3AWG,
+                        ModItems.DRAW_PLATE_2AWG,
+                        ModItems.DRAW_PLATE_1AWG,
+
+
                         // Copper Wires
+                        ModItems.CU_WIRE_18AWG,
+                        ModItems.CU_WIRE_16AWG,
                         ModItems.CU_WIRE_14AWG,
                         ModItems.CU_WIRE_12AWG,
                         ModItems.CU_WIRE_10AWG,
@@ -63,6 +79,8 @@ public class CreativeTab {
                         ModItems.CU_CORD_1AWG,
 
                         // Insulated Copper Wires
+                        ModItems.CU_INS_WIRE_18AWG,
+                        ModItems.CU_INS_WIRE_16AWG,
                         ModItems.CU_INS_WIRE_14AWG,
                         ModItems.CU_INS_WIRE_12AWG,
                         ModItems.CU_INS_WIRE_10AWG,

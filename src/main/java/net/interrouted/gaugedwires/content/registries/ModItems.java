@@ -7,6 +7,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.interrouted.gaugedwires.content.wires.*;
+import net.interrouted.gaugedwires.content.drawplates.*;
 
 import java.util.function.Supplier;
 
@@ -19,7 +20,22 @@ public class ModItems {
     public static final DeferredItem<Item> CREATIVE_WIRE = registerItem("creative_wire", CreativeWire::new);
     public static final DeferredItem<Item> CREATIVE_CORD = registerItem("creative_cord", CreativeCord::new);
 
+    // Wire Draw Plates
+    public static final DeferredItem<Item> DRAW_PLATE_18AWG = registerItem("draw_plate_18awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_16AWG = registerItem("draw_plate_16awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_14AWG = registerItem("draw_plate_14awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_12AWG = registerItem("draw_plate_12awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_10AWG = registerItem("draw_plate_10awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_8AWG = registerItem("draw_plate_8awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_6AWG = registerItem("draw_plate_6awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_4AWG = registerItem("draw_plate_4awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_3AWG = registerItem("draw_plate_3awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_2AWG = registerItem("draw_plate_2awg", BaseDrawPlate::new);
+    public static final DeferredItem<Item> DRAW_PLATE_1AWG = registerItem("draw_plate_1awg", BaseDrawPlate::new);
+
     // Uninsulated Copper Wires
+    public static final DeferredItem<Item> CU_WIRE_18AWG = registerItem("cu_wire_18awg", CuWire18awg::new);
+    public static final DeferredItem<Item> CU_WIRE_16AWG = registerItem("cu_wire_16awg", CuWire16awg::new);
     public static final DeferredItem<Item> CU_WIRE_14AWG = registerItem("cu_wire_14awg", CuWire14awg::new);
     public static final DeferredItem<Item> CU_WIRE_12AWG = registerItem("cu_wire_12awg", CuWire12awg::new);
     public static final DeferredItem<Item> CU_WIRE_10AWG = registerItem("cu_wire_10awg", CuWire10awg::new);
@@ -58,6 +74,8 @@ public class ModItems {
     public static final DeferredItem<Item> CU_CORD_1AWG  = registerItem("cu_cord_1awg",  CuCord1awg::new);
 
     // Insulated Copper Wires
+    public static final DeferredItem<Item> CU_INS_WIRE_18AWG = registerItem("cu_ins_wire_18awg", CuInsWire18awg::new);
+    public static final DeferredItem<Item> CU_INS_WIRE_16AWG = registerItem("cu_ins_wire_16awg", CuInsWire16awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_14AWG = registerItem("cu_ins_wire_14awg", CuInsWire14awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_12AWG = registerItem("cu_ins_wire_12awg", CuInsWire12awg::new);
     public static final DeferredItem<Item> CU_INS_WIRE_10AWG = registerItem("cu_ins_wire_10awg", CuInsWire10awg::new);

@@ -37,69 +37,6 @@ public class ContactorBaseBlockEntity extends ContactorBlockEntity {
         super(type, pos, state);
     }
 
-    protected void checkPos(BlockPos pos, boolean newState, List<BlockPos> checkQueue) {
-        assert level != null;
-        if(pos.equals(worldPosition))
-            return;
-        level.getBlockEntity(pos, ModdedBlockEntities.CONTACTOR.get())
-                .ifPresent(be -> {
-                    if(newState) {
-                        be.addExternal(this);
-                    } else {
-                        be.removeExternal(this);
-                    }
-                    checkQueue.add(pos);
-                });
-    }
-
-    protected void setState(boolean newState) {
-        if(newState || external.isEmpty()) {
-            if(switch1 != null) {
-                switch1.setState(newState);
-                switch2.setState(newState);
-            } else if(newState) {
-                electricBehaviour.rebuildCircuit(false);
-            }
-        }
-        if(state != newState) {
-            if(!level.isClientSide) {
-                // Play sound
-                if (newState) {
-                    ModdedSoundEvents.CONTACTOR_ON.playOnServer(level, worldPosition);
-                } else {
-                    ModdedSoundEvents.CONTACTOR_OFF.playOnServer(level, worldPosition);
-                }
-            }
-
-            var checkQueue = new ArrayList<BlockPos>();
-            checkQueue.add(worldPosition);
-            var checkedSet = new HashSet<BlockPos>();
-            var axis = getBlockState().getValue(ContactorBlock.HORIZONTAL_AXIS);
-            if (axis == Direction.Axis.X) {
-                axis = Direction.Axis.Z;
-            } else if (axis == Direction.Axis.Z) {
-                axis = Direction.Axis.X;
-            }
-
-            while (!checkQueue.isEmpty()) {
-                var checkPos = checkQueue.remove(0);
-                if (!checkedSet.add(checkPos))
-                    continue;
-                var pos1 = checkPos.relative(axis, 1);
-                checkPos(pos1, newState, checkQueue);
-                var pos2 = checkPos.relative(axis, -1);
-                checkPos(pos2, newState, checkQueue);
-            }
-        }
-        state = newState;
-        setChanged();
-        updateComparators();
-    }
-
-    protected void updateComparators() {
-        level.updateNeighbourForOutputSignal(worldPosition, getBlockState().getBlock());
-    }
-
     @Override
     public void electricalTick() {
         applyPower(switch1);
@@ -109,10 +46,10 @@ public class ContactorBaseBlockEntity extends ContactorBlockEntity {
         var I = Math.abs(coil.current());
         if(coil.isConverged()) {
             if (I >= thresholdCurrent) {
-                setState(true);
+                super.setState(true);
                 splitCooldown = 0;
             } else if (I < thresholdCurrent * ModdedConfigs.server().electricity.holdingCurrentPercent.getF()) {
-                setState(false);
+                super.setState(false);
             }
         }
         if(!state && external.isEmpty() && switch1 != null && splitCooldown++ >= 100) {
