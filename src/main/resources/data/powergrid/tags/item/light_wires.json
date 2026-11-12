@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "gauged_wires:creative_wire",
+    "gauged_wires:cu_wire_18awg",
+    "gauged_wires:cu_wire_16awg",
     "gauged_wires:cu_wire_14awg",
     "gauged_wires:cu_wire_12awg",
     "gauged_wires:cu_wire_10awg",
@@ -11,6 +13,8 @@
     "gauged_wires:cu_wire_3awg",
     "gauged_wires:cu_wire_2awg",
     "gauged_wires:cu_wire_1awg",
+    "gauged_wires:cu_ins_wire_18awg",
+    "gauged_wires:cu_ins_wire_16awg",
     "gauged_wires:cu_ins_wire_14awg",
     "gauged_wires:cu_ins_wire_12awg",
     "gauged_wires:cu_ins_wire_10awg",
