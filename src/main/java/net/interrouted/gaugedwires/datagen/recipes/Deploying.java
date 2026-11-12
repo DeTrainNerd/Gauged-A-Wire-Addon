@@ -14,6 +14,7 @@ import java.util.concurrent.CompletableFuture;
 public class Deploying extends DeployingRecipeGen {
     public Deploying(PackOutput generator, CompletableFuture<HolderLookup.Provider> registries) {
         super(generator, registries, GaugedWires.MODID);
+        BuildRecipes();
     }
 
     private void BuildRecipes() {
@@ -76,7 +77,7 @@ public class Deploying extends DeployingRecipeGen {
 
         for (WireInsulateEntry entry : WireInsulateEntries) {
             create(
-                    entry.id(), b -> b
+                    "deploy/insulate_" + entry.id(), b -> b
                             .require(entry.input())
                             .require(Items.DRIED_KELP)
                             .output(entry.output())

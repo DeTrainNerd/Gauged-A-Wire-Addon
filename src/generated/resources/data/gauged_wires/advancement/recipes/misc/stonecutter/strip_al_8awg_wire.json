@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_al_8awg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gauged_wires:al_ins_wire_8awg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gauged_wires:stonecutter/strip_al_8awg_wire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_al_8awg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gauged_wires:stonecutter/strip_al_8awg_wire"
+    ]
+  }
+}
