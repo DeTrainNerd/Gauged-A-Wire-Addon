@@ -7,8 +7,8 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.interrouted.gaugedwires.datagen.recipes.*;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -21,7 +21,7 @@ public class WireRecipeProvider extends RecipeProvider {
     @Override
     protected void buildRecipes(RecipeOutput output) {
         StripWires(output);
-        InsulateWires(output);
+
     }
 
     private void StripWires(RecipeOutput output) {
@@ -90,9 +90,5 @@ public class WireRecipeProvider extends RecipeProvider {
                     ).unlockedBy("has_" + entry.size(), has(entry.input()))
                     .save(output, ResourceLocation.fromNamespaceAndPath(GaugedWires.MODID, "stonecutter/strip_" + entry.size() + "_wire"));
         }
-    }
-
-    private void InsulateWires(RecipeOutput output) {
-
     }
 }

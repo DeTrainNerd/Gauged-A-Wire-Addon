@@ -7,13 +7,14 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class Deploying extends DeployingRecipeGen {
-    public Deploying(PackOutput generator, CompletableFuture<HolderLookup.Provider> registries) {
-        super(generator, registries, GaugedWires.MODID);
+    public Deploying(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
+        super(output, lookupProvider, GaugedWires.MODID);
         BuildRecipes();
     }
 

@@ -2,6 +2,7 @@ package net.interrouted.gaugedwires.datagen;
 
 
 import net.interrouted.gaugedwires.GaugedWires;
+import net.interrouted.gaugedwires.datagen.recipes.Deploying;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -22,6 +23,11 @@ public class ModDataGenerator {
         generator.addProvider(
                 event.includeServer(),
                 new WireRecipeProvider(output, lookupProvider)
+        );
+
+        generator.addProvider(
+                event.includeServer(),
+                new Deploying(output, lookupProvider)
         );
     }
 }
