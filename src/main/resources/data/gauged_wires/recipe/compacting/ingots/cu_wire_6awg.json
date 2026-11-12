@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {"tag": "c:ingots/copper"},
+    {"item": "gauged_wires:draw_plate_6awg"}
+  ],
+  "results": [
+    {
+      "id": "gauged_wires:cu_wire_6awg",
+      "count": 5
+    },
+    {"id": "gauged_wires:draw_plate_6awg"}
+  ]
+}
