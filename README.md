@@ -8,11 +8,12 @@ These wires don't joke around!
 
 ## What Gets added in this mod:
 
-- Copper wires with gauges from 14 AWG to 2000 MCM (2mm² to 1014mm²)
+- Copper wires with gauges from 18 AWG to 2000 MCM (2mm² to 1014mm²)
 - A creative wire and cord variant with very little resistance and a ludicrous ampacity
 - Aluminum wires with gauges from 14 AWG to 2000 MCM (2mm² to 1014mm²)
 - Copper and Aluminum Cords with gauges from 14 AWG up to 1 AWG
 
 ## What is soon to be added:
 
-- Crafting Recipes
+- Crafting Recipes for wires larger than 1 AWG
+- Rebrand from MCM to KCMIL
