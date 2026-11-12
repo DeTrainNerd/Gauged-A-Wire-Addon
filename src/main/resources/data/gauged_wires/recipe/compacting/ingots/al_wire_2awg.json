@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {"tag": "c:ingots/iron"},
+    {"item": "gauged_wires:draw_plate_2awg"}
+  ],
+  "results": [
+    {
+      "id": "gauged_wires:al_wire_2awg",
+      "count": 4
+    },
+    {"id": "gauged_wires:draw_plate_2awg"}
+  ]
+}

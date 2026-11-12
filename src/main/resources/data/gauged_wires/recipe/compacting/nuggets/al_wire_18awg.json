@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {"tag": "c:nuggets/iron"},
+    {"item": "gauged_wires:draw_plate_18awg"}
+  ],
+  "results": [
+    {
+      "id": "gauged_wires:al_wire_18awg",
+      "count": 18
+    },
+    {"id": "gauged_wires:draw_plate_18awg"}
+  ]
+}

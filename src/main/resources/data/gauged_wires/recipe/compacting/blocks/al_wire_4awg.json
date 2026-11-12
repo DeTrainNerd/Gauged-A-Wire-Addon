@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {"tag": "c:blocks/iron"},
+    {"item": "gauged_wires:draw_plate_3awg"}
+  ],
+  "results": [
+    {
+      "id": "gauged_wires:al_wire_3awg",
+      "count": 56
+    },
+    {"id": "gauged_wires:draw_plate_3awg"}
+  ]
+}
