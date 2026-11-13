@@ -13,6 +13,7 @@ out/
 !**/src/**/out/
 
 .run/
+.~lock*
 
 ### Eclipse ###
 .apt_generated
