@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cu_0000awg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gauged_wires:cu_cord_0000awg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gauged_wires:stonecutting/strip_cu_0000awg_cord"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cu_0000awg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gauged_wires:stonecutting/strip_cu_0000awg_cord"
+    ]
+  }
+}

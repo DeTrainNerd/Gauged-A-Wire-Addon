@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "gauged_wires:al_cord_1awg"
+  },
+  "result": {
+    "count": 1,
+    "id": "gauged_wires:al_ins_wire_1awg"
+  }
+}

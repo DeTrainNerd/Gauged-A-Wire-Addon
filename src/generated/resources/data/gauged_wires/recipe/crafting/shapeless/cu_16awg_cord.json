@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gauged_wires:cu_ins_wire_16awg"
+    },
+    {
+      "item": "gauged_wires:cu_ins_wire_16awg"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "gauged_wires:cu_cord_16awg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_4awg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gauged_wires:draw_plate_4awg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gauged_wires:stonecutting/drawplates/4awg_draw_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_4awg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gauged_wires:stonecutting/drawplates/4awg_draw_plate"
+    ]
+  }
+}

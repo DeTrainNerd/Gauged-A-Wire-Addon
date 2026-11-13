@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gauged_wires:al_ins_wire_12awg"
+    },
+    {
+      "item": "gauged_wires:al_ins_wire_12awg"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "gauged_wires:al_cord_12awg"
+  }
+}

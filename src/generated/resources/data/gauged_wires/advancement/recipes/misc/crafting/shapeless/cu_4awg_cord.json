@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cu_4awg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gauged_wires:cu_ins_wire_4awg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gauged_wires:crafting/shapeless/cu_4awg_cord"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cu_4awg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gauged_wires:crafting/shapeless/cu_4awg_cord"
+    ]
+  }
+}
