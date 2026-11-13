@@ -78,7 +78,7 @@ public class Deploying extends DeployingRecipeGen {
 
         for (WireInsulateEntry entry : WireInsulateEntries) {
             create(
-                    "deploy/insulate_" + entry.id(), b -> b
+                    "deploying/insulate_" + entry.id(), b -> b
                             .require(entry.input())
                             .require(Items.DRIED_KELP)
                             .output(entry.output())

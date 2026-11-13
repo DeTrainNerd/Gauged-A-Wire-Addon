@@ -68,6 +68,8 @@ public class CreativeTab {
                         ModItems.CU_WIRE_2000MCM,
 
                         // Copper Cords
+                        ModItems.CU_CORD_18AWG,
+                        ModItems.CU_CORD_16AWG,
                         ModItems.CU_CORD_14AWG,
                         ModItems.CU_CORD_12AWG,
                         ModItems.CU_CORD_10AWG,
@@ -77,6 +79,10 @@ public class CreativeTab {
                         ModItems.CU_CORD_3AWG,
                         ModItems.CU_CORD_2AWG,
                         ModItems.CU_CORD_1AWG,
+                        ModItems.CU_CORD_0AWG,
+                        ModItems.CU_CORD_00AWG,
+                        ModItems.CU_CORD_000AWG,
+                        ModItems.CU_CORD_0000AWG,
 
                         // Insulated Copper Wires
                         ModItems.CU_INS_WIRE_18AWG,
@@ -144,6 +150,10 @@ public class CreativeTab {
                         ModItems.AL_CORD_3AWG,
                         ModItems.AL_CORD_2AWG,
                         ModItems.AL_CORD_1AWG,
+                        ModItems.AL_CORD_0AWG,
+                        ModItems.AL_CORD_00AWG,
+                        ModItems.AL_CORD_000AWG,
+                        ModItems.AL_CORD_0000AWG,
 
                         // Insulated Aluminum Wires
                         ModItems.AL_INS_WIRE_14AWG,

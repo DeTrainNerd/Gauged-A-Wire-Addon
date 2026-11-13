@@ -1,13 +1,13 @@
 {
-  "resistancePerItem": 0.00082,
+  "resistancePerItem": 0.00101,
   "itemsPerMeter":  0.5,
-  "maximumLength": 50,
+  "maximumLength": 72,
   "thermalMass":  10,
-  "maximumCurrent":  85.0,
+  "maximumCurrent":  70,
   "texture":  "powergrid:textures/special/insulated_wire.png",
   "horizontalCoefficient": 1.01,
   "verticalCoefficient": 1.01,
-  "wireThickness": 0.0625,
+  "wireThickness": 0.0418,
   "colorable": true,
   "cord": false,
   "insulated": true

@@ -1,13 +1,13 @@
 {
-  "resistancePerItem": 0.00018,
+  "resistancePerItem": 0.000232,
   "itemsPerMeter":  0.5,
-  "maximumLength": 102,
+  "maximumLength": 24,
   "thermalMass":  16.8,
-  "maximumCurrent":  251,
+  "maximumCurrent":  390,
   "texture":  "gauged_wires:textures/special/aluminum_wire.png",
   "horizontalCoefficient": 1.01,
   "verticalCoefficient": 1.01,
-  "wireThickness": 0.1662,
+  "wireThickness": 0.1135,
   "colorable": false,
   "cord": false,
   "insulated": false

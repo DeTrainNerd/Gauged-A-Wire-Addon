@@ -1,7 +1,7 @@
 {
   "type": "create:compacting",
   "ingredients": [
-    {"tag": "c:ingots/copper"},
+    {"tag": "c:storage_blocks/copper"},
     {"item": "gauged_wires:draw_plate_6awg"}
   ],
   "results": [
